@@ -1,0 +1,10 @@
+market,model,accuracy,f1_score
+Game Winner,Logistic Regression,1.0,1.0
+Game Winner,Random Forest,1.0,1.0
+Game Winner,Gradient Boosting,1.0,1.0
+Spread Cover,Logistic Regression,0.9981123981123982,0.99817609020063
+Spread Cover,Random Forest,0.9784641784641784,0.9791545552694959
+Spread Cover,Gradient Boosting,0.998970398970399,0.999003984063745
+Over/Under,Logistic Regression,0.9982839982839983,0.977728285077951
+Over/Under,Random Forest,0.9861861861861861,0.7979924717691342
+Over/Under,Gradient Boosting,0.993993993993994,0.919908466819222

@@ -1,0 +1,462 @@
+[
+  {
+    "model": "Logistic Regression",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "auc": 1.0
+  },
+  {
+    "model": "Random Forest",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "auc": 1.0,
+    "feature_importance": [
+      {
+        "feature": "score_diff",
+        "importance": 0.4064066704880937
+      },
+      {
+        "feature": "home_wins",
+        "importance": 0.3510370050888884
+      },
+      {
+        "feature": "away_score.1",
+        "importance": 0.0471735186918269
+      },
+      {
+        "feature": "away_score",
+        "importance": 0.04630995417399259
+      },
+      {
+        "feature": "home_score",
+        "importance": 0.04316508180088701
+      },
+      {
+        "feature": "home_score.1",
+        "importance": 0.04146371946204295
+      },
+      {
+        "feature": "barthag_diff",
+        "importance": 0.012327883291881047
+      },
+      {
+        "feature": "efficiency_diff",
+        "importance": 0.011274835504830733
+      },
+      {
+        "feature": "away_barthag",
+        "importance": 0.005946627527409404
+      },
+      {
+        "feature": "home_barthag",
+        "importance": 0.004821707991831308
+      },
+      {
+        "feature": "away_wab",
+        "importance": 0.004398027910312237
+      },
+      {
+        "feature": "win_pct_diff",
+        "importance": 0.003939795067268807
+      },
+      {
+        "feature": "home_wab",
+        "importance": 0.0034486683904810613
+      },
+      {
+        "feature": "away_adjde",
+        "importance": 0.0026937882394206148
+      },
+      {
+        "feature": "efg_diff",
+        "importance": 0.00251954288458582
+      },
+      {
+        "feature": "home_adjde",
+        "importance": 0.0018248853769918007
+      },
+      {
+        "feature": "away_adjoe",
+        "importance": 0.0016815586196981798
+      },
+      {
+        "feature": "away_w",
+        "importance": 0.001063894214433166
+      },
+      {
+        "feature": "home_adjoe",
+        "importance": 0.0009738669250346278
+      },
+      {
+        "feature": "home_efg_d",
+        "importance": 0.0006397441808294269
+      },
+      {
+        "feature": "away_efg_d",
+        "importance": 0.0006220666183311401
+      },
+      {
+        "feature": "home_w",
+        "importance": 0.0005623153061186763
+      },
+      {
+        "feature": "home_efg_o",
+        "importance": 0.0004306709790262883
+      },
+      {
+        "feature": "away_efg_o",
+        "importance": 0.0004299138722242406
+      },
+      {
+        "feature": "away_g",
+        "importance": 0.0003994802904556303
+      },
+      {
+        "feature": "away_2p_d",
+        "importance": 0.00036457972760877165
+      },
+      {
+        "feature": "home_2p_o",
+        "importance": 0.00022512352881877453
+      },
+      {
+        "feature": "away_tor",
+        "importance": 0.0002056200612425241
+      },
+      {
+        "feature": "home_3p_o",
+        "importance": 0.00019176061367765288
+      },
+      {
+        "feature": "home_tor",
+        "importance": 0.00018323333598841378
+      },
+      {
+        "feature": "away_2p_o",
+        "importance": 0.00017317590861644076
+      },
+      {
+        "feature": "home_2p_d",
+        "importance": 0.00017307679341393647
+      },
+      {
+        "feature": "turnover_diff",
+        "importance": 0.00016896306508016684
+      },
+      {
+        "feature": "home_3p_d",
+        "importance": 0.00016760468471053693
+      },
+      {
+        "feature": "home_tord",
+        "importance": 0.00015930657136603048
+      },
+      {
+        "feature": "tempo_diff",
+        "importance": 0.00015786561041647478
+      },
+      {
+        "feature": "home_drb",
+        "importance": 0.00015662917507829537
+      },
+      {
+        "feature": "away_ftr",
+        "importance": 0.00015580857014456433
+      },
+      {
+        "feature": "away_3p_d",
+        "importance": 0.00015528636974101163
+      },
+      {
+        "feature": "home_adj_t",
+        "importance": 0.00015402455803510714
+      },
+      {
+        "feature": "home_orb",
+        "importance": 0.0001534803730205486
+      },
+      {
+        "feature": "away_orb",
+        "importance": 0.00014191724459838143
+      },
+      {
+        "feature": "away_3p_o",
+        "importance": 0.00013999520983185699
+      },
+      {
+        "feature": "home_ftrd",
+        "importance": 0.00013441058961465935
+      },
+      {
+        "feature": "three_point_diff",
+        "importance": 0.0001309834990741072
+      },
+      {
+        "feature": "away_ftrd",
+        "importance": 0.00012929255711366174
+      },
+      {
+        "feature": "away_drb",
+        "importance": 0.000128291091414455
+      },
+      {
+        "feature": "home_g",
+        "importance": 0.00012815823906095754
+      },
+      {
+        "feature": "home_ftr",
+        "importance": 0.0001279654874487988
+      },
+      {
+        "feature": "rebound_diff",
+        "importance": 0.00012172904665378979
+      },
+      {
+        "feature": "away_adj_t",
+        "importance": 0.00012107283302282857
+      },
+      {
+        "feature": "away_tord",
+        "importance": 0.00011732301406167792
+      },
+      {
+        "feature": "away_seed",
+        "importance": 4.5695469985165235e-05
+      },
+      {
+        "feature": "home_seed",
+        "importance": 3.240387426457359e-05
+      }
+    ]
+  },
+  {
+    "model": "Gradient Boosting",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "auc": 1.0,
+    "feature_importance": [
+      {
+        "feature": "score_diff",
+        "importance": 0.5174208194838114
+      },
+      {
+        "feature": "home_wins",
+        "importance": 0.48257918051538984
+      },
+      {
+        "feature": "win_pct_diff",
+        "importance": 3.594581947221325e-13
+      },
+      {
+        "feature": "barthag_diff",
+        "importance": 1.4010562966696634e-13
+      },
+      {
+        "feature": "away_barthag",
+        "importance": 7.318851553752265e-14
+      },
+      {
+        "feature": "home_ftr",
+        "importance": 4.581889148922552e-14
+      },
+      {
+        "feature": "home_orb",
+        "importance": 3.76098564208446e-14
+      },
+      {
+        "feature": "home_wab",
+        "importance": 2.7933508326383516e-14
+      },
+      {
+        "feature": "away_3p_d",
+        "importance": 2.7006771385643044e-14
+      },
+      {
+        "feature": "home_barthag",
+        "importance": 2.5282967698174323e-14
+      },
+      {
+        "feature": "home_2p_d",
+        "importance": 1.894761244800921e-14
+      },
+      {
+        "feature": "away_adjde",
+        "importance": 1.0639597805894564e-14
+      },
+      {
+        "feature": "turnover_diff",
+        "importance": 9.846297511123194e-15
+      },
+      {
+        "feature": "away_ftr",
+        "importance": 6.635508578118351e-15
+      },
+      {
+        "feature": "home_3p_d",
+        "importance": 4.6586325145212254e-15
+      },
+      {
+        "feature": "away_wab",
+        "importance": 4.21196152865678e-15
+      },
+      {
+        "feature": "away_ftrd",
+        "importance": 3.69525270672066e-15
+      },
+      {
+        "feature": "home_ftrd",
+        "importance": 2.8025890169191414e-15
+      },
+      {
+        "feature": "away_adjoe",
+        "importance": 6.936898858979577e-16
+      },
+      {
+        "feature": "home_2p_o",
+        "importance": 1.5934591457339136e-16
+      },
+      {
+        "feature": "away_tor",
+        "importance": 1.3209873830805566e-16
+      },
+      {
+        "feature": "home_score.1",
+        "importance": 7.884017788643393e-17
+      },
+      {
+        "feature": "away_efg_o",
+        "importance": 4.300664139298579e-17
+      },
+      {
+        "feature": "tempo_diff",
+        "importance": 2.519314602175011e-17
+      },
+      {
+        "feature": "rebound_diff",
+        "importance": 3.877297829029551e-18
+      },
+      {
+        "feature": "away_drb",
+        "importance": 3.877297829029551e-18
+      },
+      {
+        "feature": "home_efg_o",
+        "importance": 9.039495817946784e-19
+      },
+      {
+        "feature": "home_score",
+        "importance": 2.0819311234247517e-19
+      },
+      {
+        "feature": "home_w",
+        "importance": 1.1254884064667996e-19
+      },
+      {
+        "feature": "away_tord",
+        "importance": 0.0
+      },
+      {
+        "feature": "away_score.1",
+        "importance": 0.0
+      },
+      {
+        "feature": "home_tor",
+        "importance": 0.0
+      },
+      {
+        "feature": "away_efg_d",
+        "importance": 0.0
+      },
+      {
+        "feature": "home_drb",
+        "importance": 0.0
+      },
+      {
+        "feature": "home_adjde",
+        "importance": 0.0
+      },
+      {
+        "feature": "home_adjoe",
+        "importance": 0.0
+      },
+      {
+        "feature": "home_efg_d",
+        "importance": 0.0
+      },
+      {
+        "feature": "home_g",
+        "importance": 0.0
+      },
+      {
+        "feature": "away_2p_d",
+        "importance": 0.0
+      },
+      {
+        "feature": "away_seed",
+        "importance": 0.0
+      },
+      {
+        "feature": "away_3p_o",
+        "importance": 0.0
+      },
+      {
+        "feature": "away_orb",
+        "importance": 0.0
+      },
+      {
+        "feature": "home_seed",
+        "importance": 0.0
+      },
+      {
+        "feature": "home_adj_t",
+        "importance": 0.0
+      },
+      {
+        "feature": "away_w",
+        "importance": 0.0
+      },
+      {
+        "feature": "away_g",
+        "importance": 0.0
+      },
+      {
+        "feature": "efg_diff",
+        "importance": 0.0
+      },
+      {
+        "feature": "efficiency_diff",
+        "importance": 0.0
+      },
+      {
+        "feature": "away_adj_t",
+        "importance": 0.0
+      },
+      {
+        "feature": "home_tord",
+        "importance": -2.135313972743335e-20
+      },
+      {
+        "feature": "three_point_diff",
+        "importance": -2.135313972743335e-20
+      },
+      {
+        "feature": "away_2p_o",
+        "importance": -3.634482324440218e-19
+      },
+      {
+        "feature": "home_3p_o",
+        "importance": -4.283973657816316e-19
+      },
+      {
+        "feature": "away_score",
+        "importance": -1.980503709719443e-18
+      }
+    ]
+  }
+]
