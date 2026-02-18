@@ -1,0 +1,6 @@
+tournament,player1,player2,surface,p1_win_prob,p2_win_prob,predicted_winner,confidence,recommendation
+Australian Open 2026 Final,Jannik Sinner,Carlos Alcaraz,Hard,0.8273,0.1727,Jannik Sinner,0.8273,BET Jannik Sinner
+Roland Garros 2026 Semi-Final,Novak Djokovic,Alexander Zverev,Clay,0.6602,0.3398,Novak Djokovic,0.6602,BET Novak Djokovic
+Indian Wells Masters 2026,Daniil Medvedev,Stefanos Tsitsipas,Hard,0.804,0.196,Daniil Medvedev,0.804,BET Daniil Medvedev
+Wimbledon 2026 Semi-Final,Carlos Alcaraz,Holger Rune,Grass,0.8092,0.1908,Carlos Alcaraz,0.8092,BET Carlos Alcaraz
+Miami Open 2026,Jannik Sinner,Taylor Fritz,Hard,0.8704,0.1296,Jannik Sinner,0.8704,BET Jannik Sinner
